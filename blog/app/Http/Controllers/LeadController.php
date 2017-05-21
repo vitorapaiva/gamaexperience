@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 
 class LeadController extends Controller
 {
+    private $arrayNotCorp=['gmail.com','hotmail.com','yahoo.com','yahoo.com.br','osite.com.br'];
     /**
      * Pagina inicial e form de criacao de lead.
      *
@@ -27,7 +28,9 @@ class LeadController extends Controller
      */
     public function postLead(CreateLead $request,LeadBlogRepository $leadRepository)
     {
-        $data=$request-all();
+        $data=$request->all();
+        unset($data['_token']);
+        $data['tipo_usuario']=$this->analisaTipoUsuario($data['email']);
         $result=$leadRepository->storeLead($data);
         if($result==true)
         {
@@ -36,6 +39,20 @@ class LeadController extends Controller
         }
         \Session::flash('result','Houve um problema com seu cadastro.');
         return view('index');
+    }
+
+    private function analisaTipoUsuario($email)
+    {
+        $arrayEmail=explode('@',$email);
+        if(is_array($arrayEmail))
+        {
+            if(in_array($arrayEmail[1],$this->arrayNotCorp))
+            {
+                return 'B2C';
+            }
+            return 'B2B';
+        }
+        return 'Email invalido';
     }
 
 

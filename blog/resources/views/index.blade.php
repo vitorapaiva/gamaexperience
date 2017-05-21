@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Doutor Dinheiro</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:100,300,400,600,700%7COpen+Sans:400,500,600" rel="stylesheet" type="text/css">
     <script src="https://use.fontawesome.com/c66c33c7d6.js"></script>
 </head>
 
 <body ng-app="MyInvest">
-
     <div class="img-header">
         <header class="container">
             <div class="row">
@@ -112,7 +111,7 @@
                         <small><small>Campos marcados com * são obrigatórios</small></small>
 
                         <div>
-                            <button type="button" class="btn btn-primary pull-right btn-lg botao-info-cor" ng-click="fc.enviarServidor()">Ver mais informacão</button>
+                            <button type="submit" class="btn btn-primary pull-right btn-lg botao-info-cor" ng-click="fc.enviarServidor()">Ver mais informacão</button>
                         </div>
 
                     </section>
@@ -124,7 +123,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" type="text/javascript"></script>
-    <script src="app.js" type="text/javascript"></script>
+    <script src="css/app.js" type="text/javascript"></script>
 </body>
 
 </html>
