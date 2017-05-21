@@ -38,3 +38,19 @@ font-family {
 .texto-explicativo {
     margin-bottom: 0px;
 }
+
+.texto-explicao {
+    height: 300px;
+}
+
+.img-header {
+    background: url("http://www.chungcugoldenland.info/data/out/254/45468958-ny-skyline-wallpapers-and-screensavers.jpg");    
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.texto-header {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    color: white;
+}
+
