@@ -31,6 +31,7 @@ class LeadController extends Controller
         $data=$request->all();
         unset($data['_token']);
         $data['tipo_usuario']=$this->analisaTipoUsuario($data['email']);
+        $data['created_at']=date('Y-m-d H:i:s');
         $result=$leadRepository->storeLead($data);
         if($result==true)
         {
