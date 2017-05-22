@@ -25,10 +25,10 @@
         <header class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 texto-header ">
-                    <h2>O CREDITO QUE VC PRECISA!</h2>
-                    <h3>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-                        sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation
-                        e li plu commun vocabules.</h3>
+                    <h2>Conheça o novo especialista em finanças:<br>DR. DINHEIRO!</h2>
+                    <h3>Ele sabe tudo de dinheiro e vai lhe ajudar a sair do aperto!<br>
+                        Aprenda como ter dinheiro, pagar suas dívidas, abrir seu negócio e realizar seu sonho!<br>
+                        Consulte o Dr.Dinheiro e cure o seu bolso!</h3>
 
                 </div>
             </div>
@@ -44,10 +44,11 @@
                 </div>
 
                 <div class="col-md-6 texto-explicao" style="padding-top: 55px">
-                    <h3 class="text-center">ALGUM TITULO</h3>
-                    <p class="text-center">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-                        sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation
-                        e li plu commun vocabules.</p>
+                    <h3 class="text-center">O DINHEIRO PODE TRABALHAR PARA VOCÊ!</h3>
+                    <p class="text-center">As pessoas que fazem o dinheiro trabalhar conseguem pagar todas as contas em dia, realizar sonhos, comprar bens e viajar! E acredite, não é difícil! O Dr. Dinheiro vai te ensinar o que a escola não te ensinou: Pagar dívidas, Economizar, Investir e Ganhar Dinheiro! <br>
+                    Estamos preparando um conteúdo totalmente gratuito, com as melhores dicas da área!<br>
+                    Preencha o formulário abaixo e assim que tivermos tudo pronto, lhe informamos!<br>
+                    </p>
                 </div>
 
             </div>
@@ -60,17 +61,17 @@
                 <div class="col-md-10 col-md-offset-1 text-center">
                     <div class="col-md-4">
                         <i class="fa fa-money fa-5x" aria-hidden="true"></i>
-                        <p>MOTIVO PELO QUAL VC DEVERIA DEIXAR SEU EMAIL 1</p>
+                        <p>NUNCA FOI TÃO FÁCIL APRENDER COMO PAGAR SUAS DÍVIDAS!</p>
                     </div>
 
                     <div class="col-md-4">
                         <i class="fa fa-heart-o fa-5x" aria-hidden="true"></i>
-                        <p>MOTIVO PELO QUAL VC DEVERIA DEIXAR SEU EMAIL 2</p>
+                        <p>VOCÊ IRÁ SE APAIXONAR POR NOSSAS DICAS!</p>
                     </div>
 
                     <div class="col-md-4">
                         <i class="fa fa-users fa-5x" aria-hidden="true"></i>
-                        <p>MOTIVO PELO QUAL VC DEVERIA DEIXAR SEU EMAIL 3</p>
+                        <p>SUA FAMÍLIA SERÁ MAIS COMPLETA E MAIS FELIZ!</p>
                     </div>
 
                 </div>
@@ -96,7 +97,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     <section class="well well-lg clearfix well-input-size">
-                        <h3 class="text-center demostracao-texto">Solicite uma demostracão</h3>
+                        <h3 class="text-center demostracao-texto">NÃO PERCA NENHUMA DICA!!</h3>
                         <div class="form-group">
                             <label>Nome completo*</label>
                             <input type="text" name="nome" placeholder="Seu nome completo" class="form-control tamanho-input" ng-model="fc.inputName">
@@ -109,19 +110,20 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Cite o motivo principal</label>
+                            <label>Qual assunto mais lhe interessa?</label>
                             <select class="form-control tamanho-input" name="motivo" ng-model="fc.motivo">
                             <option value=""></option>
-                            <option value="1">Razão 1</option>
-                            <option value="2">Razão 2</option>
-                            <option value="3">Razão 3</option>
+                            <option value="Como pagar minhas dívidas?">Como pagar minhas dívidas?</option>
+                            <option value="Como investir dinheiro?">Como investir dinheiro?</option>
+                            <option value="Como reformar minha casa?">Como reformar minha casa?</option>
+                            <option value="Como adquirir um bem?">Como adquirir um bem?</option>
                         </select>
                         </div>
 
                         <small><small>Campos marcados com * são obrigatórios</small></small>
 
                         <div>
-                            <button type="submit" class="btn btn-primary pull-right btn-lg botao-info-cor" ng-click="fc.enviarServidor()">Ver mais informacão</button>
+                            <button type="submit" class="btn btn-primary pull-right btn-lg botao-info-cor" ng-click="fc.enviarServidor()">Enviar</button>
                         </div>
 
                     </section>

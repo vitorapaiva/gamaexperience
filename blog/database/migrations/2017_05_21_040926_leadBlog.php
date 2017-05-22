@@ -13,14 +13,12 @@ class LeadBlog extends Migration
      */
     public function up()
     {
-       Schema::dropIfExists('leadBlog');
        Schema::create('leadBlog', function (Blueprint $table) {
             $table->increments('lead_id')->index();
             $table->string('nome');
             $table->string('email');
             $table->string('ip_usuario');
             $table->string('tipo_usuario');
-            $table->string('motivo');
             $table->timestamps();
         });
     }
