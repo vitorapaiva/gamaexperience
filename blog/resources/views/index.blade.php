@@ -43,7 +43,7 @@
                     <img src="https://s-media-cache-ak0.pinimg.com/736x/e4/70/4a/e4704a3db8cebf1609175f4456661238.jpg" class="center-block" />
                 </div>
 
-                <div class="col-md-6 texto-explicao" style="padding-top: 55px">
+                <div class="col-md-6 texto-explicao" style="padding-top: 10px">
                     <h3 class="text-center">O DINHEIRO PODE TRABALHAR PARA VOCÊ!</h3>
                     <p class="text-center">As pessoas que fazem o dinheiro trabalhar conseguem pagar todas as contas em dia, realizar sonhos, comprar bens e viajar! E acredite, não é difícil! O Dr. Dinheiro vai te ensinar o que a escola não te ensinou: Pagar dívidas, Economizar, Investir e Ganhar Dinheiro! <br>
                     Estamos preparando um conteúdo totalmente gratuito, com as melhores dicas da área!<br>
@@ -113,6 +113,7 @@
                             <label>Qual assunto mais lhe interessa?</label>
                             <select class="form-control tamanho-input" name="motivo" ng-model="fc.motivo">
                             <option value=""></option>
+                            <option value="Realizar um sonho">Realizar um sonho</option>
                             <option value="Como pagar minhas dívidas?">Como pagar minhas dívidas?</option>
                             <option value="Como investir dinheiro?">Como investir dinheiro?</option>
                             <option value="Como reformar minha casa?">Como reformar minha casa?</option>
