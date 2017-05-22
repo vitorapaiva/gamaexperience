@@ -1,0 +1,10 @@
+@media screen and (max-width: 500px) {
+
+    .texto-header {
+        padding-left: 15px;        
+    }
+    
+    .blog-links {        
+        color: #8ae8c2;
+    }
+}

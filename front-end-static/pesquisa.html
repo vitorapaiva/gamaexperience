@@ -6,6 +6,7 @@
     <title>MyInvest</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="responsivo.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:100,300,400,600,700%7COpen+Sans:400,500,600" rel="stylesheet" type="text/css">
     <script src="https://use.fontawesome.com/c66c33c7d6.js"></script>
 </head>
@@ -18,10 +19,8 @@
                 <div class="col-md-8 col-md-offset-2 texto-header ">
                     <h2>O CREDITO QUE VC PRECISA!</h2>
                     <h3>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-                        sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation
-                        e li plu commun vocabules.
+                        sport etc, litot Europa usa li sam vocabular.
                     </h3>
-
                 </div>
             </div>
         </header>
@@ -33,7 +32,22 @@
                 <img src="https://image.freepik.com/fotos-gratis/3d-rendem-de-morph-homem-que-procurara-com-lupa_1048-2931.jpg" alt="">
             </div>
             <div class="col-md-6">
+                {!! Form::open(array('url' => '/','class' => 'form-horizontal')) !!}
+                {!! Form::hidden('ip_usuario',$_SERVER['REMOTE_ADDR'])!!}
                 <section class="well-input-size">
+                     @if (count($errors) > 0)
+                     
+                        <div class="alert alert-danger col-md-12">
+                            
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                            
+                        </div>
+                    
+                    @endif
                     <h3 class="text-center demostracao-texto">Nos ajude na pesquisa</h3>
                     <div class="form-group">
                         <label>Nome completo*</label>
@@ -121,6 +135,7 @@
                     </div>
 
                 </section>
+                {!! Form::close() !!} 
 
             </div>
         </div>
