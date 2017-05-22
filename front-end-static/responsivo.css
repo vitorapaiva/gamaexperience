@@ -7,4 +7,21 @@
     .blog-links {        
         color: #8ae8c2;
     }
+
+    .logo-header {
+        width: 100%;
+    }
+
+    .responsivo-centralizar {
+        text-align: center;
+    }
+
+    .well-input-size {    
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .pesquisa-display {
+        display: none;
+    }
 }

@@ -56,12 +56,11 @@ font-family {
 }
 
 .img-header {
-    background: url("http://i.imgur.com/FU6Ji54.png");  
+    background: url("http://i.imgur.com/sudhGk5.png");  
     transform: translate3d(0px, 0px, 0px);
 }
 
-.texto-header {
-    margin-top: 170px;
+.texto-header {    
     padding-left: 0px;
     color: white;
 }
@@ -82,8 +81,14 @@ font-family {
 
 .blog-links {
     color: #8ae8c2;
+    font-weight: bold;
 }
 
 .texto-bottom {
     color: white;
+}
+
+
+.logo-header {
+    width: 50%;
 }
