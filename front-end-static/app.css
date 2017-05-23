@@ -98,3 +98,16 @@ font-family {
     height: 150px;
     margin-top: 10px;
 }
+
+.conteudo-header {
+    font-weight: bold;
+    color: #37c19d;
+}
+
+.imagem-conteudo{
+    width: 720px;
+}
+
+.grande-conteudo {
+    font-size: 20px;
+}

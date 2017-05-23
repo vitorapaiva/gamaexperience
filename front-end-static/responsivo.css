@@ -24,6 +24,10 @@
     .pesquisa-display {
         display: none;
     }
+
+    .imagem-conteudo{
+        width: 90%;
+    }  
 }
 
 @media screen and (max-width: 1200px) {
@@ -40,4 +44,9 @@
     .pesquisa-display {
         width: 500px;
     }
+
+    .imagem-conteudo{
+        width: 90%;
+        
+    }   
 }
