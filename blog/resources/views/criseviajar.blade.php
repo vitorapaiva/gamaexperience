@@ -3,7 +3,7 @@
     <section class="container" style="font-size: 15px;">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <a href="/gamaxp/blog.html">
+                <a href="/">
                     <u>
                         << Voltar</u>
                 </a>
