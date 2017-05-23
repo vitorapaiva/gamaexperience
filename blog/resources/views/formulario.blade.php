@@ -51,7 +51,7 @@
                         <small><small>Campos marcados com * são obrigatórios</small></small>
 
                         <div>
-                            <button type="submit" class="btn btn-primary pull-right btn-lg botao-info-cor" >Ver mais informacão</button>
+                            <button type="submit" class="btn btn-primary pull-right btn-lg botao-info-cor" >Continuar</button>
                         </div>
 
                     </section>
