@@ -57,7 +57,7 @@ font-family {
 
 .img-header {
     background: url("http://i.imgur.com/sudhGk5.png");  
-    transform: translate3d(0px, 0px, 0px);
+    padding-bottom: 10px;
 }
 
 .texto-header {    
@@ -80,7 +80,7 @@ font-family {
 }
 
 .blog-links {
-    color: #8ae8c2;
+    color: #1e4e3b;
     font-weight: bold;
 }
 
@@ -91,4 +91,10 @@ font-family {
 
 .logo-header {
     width: 50%;
+}
+
+.imagem-resize {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 993px) {
 
     .texto-header {
         padding-left: 15px;        
@@ -23,5 +23,21 @@
 
     .pesquisa-display {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .imagem-resize {
+        width: 210px;
+        height: 150px;        
+    }
+
+    .texto-responsivo {
+        font-size: 11px;
+    }
+
+    .pesquisa-display {
+        width: 500px;
     }
 }
