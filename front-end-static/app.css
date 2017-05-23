@@ -42,11 +42,6 @@ font-family {
     border-color: red;
 }
 
-.well-input-size{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .texto-explicativo {
     margin-bottom: 0px;
 }
@@ -74,8 +69,7 @@ font-family {
 }
 
 .footer-blog {
-    background-color: #42705d;
-    height: 100px;
+    background-color: #42705d;    
     width: 100%;
 }
 
@@ -94,7 +88,7 @@ font-family {
 }
 
 .imagem-resize {
-    width: 250px;
+    width: 300px;
     height: 150px;
     margin-top: 10px;
 }
@@ -110,4 +104,18 @@ font-family {
 
 .grande-conteudo {
     font-size: 20px;
+}
+
+.affix {
+    top: 90px;
+    width: 27%;
+}
+
+.affix-top {
+    width: 98%
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 91%;
 }
