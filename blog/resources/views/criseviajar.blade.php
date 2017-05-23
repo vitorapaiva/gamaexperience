@@ -16,9 +16,7 @@
 
                 <div class="col-md-12">
                     <p class="text-justify">
-                        Se você é apaixonado por viagens assim como eu, mas tá com pouca grana, acho que algumas dicas podem te ajudar. Quem não
-                        gosta de viajar, não é verdade? Um final de semana em Angra, outro em Curitiba e se pudesse ir para
-                        uma praia estilo Ipanema agora? Saiba como conhecer todos estes lugares com pouco dinheiro.
+                        Se você é apaixonado por viagens assim como eu, mas tá com pouca grana, acho que algumas dicas podem te ajudar. Quem não gosta de viajar, não é verdade? Um final de semana em Angra, outro em Curitiba e se pudesse ir para uma praia estilo Ipanema agora? Saiba como conhecer todos estes lugares com pouco dinheiro.
                     </p>
                 </div>
 
