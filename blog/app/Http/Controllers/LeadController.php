@@ -13,18 +13,18 @@ class LeadController extends Controller
     /**
      * Pagina inicial e form de criacao de lead.
      *
-     * @return Response
+     * @return View
      */
     public function index()
     {
-        return view('index');
+        return view('formulario');
     }
 
     /**
      * Armazena no banco de dados as informacoes do lead.
      *
-     * @param  Request  $request
-     * @return Response
+     * @param  Request  $request, LeadBlogRepository $leadRepository
+     * @return View
      */
     public function postLead(CreateLead $request,LeadBlogRepository $leadRepository)
     {
@@ -35,11 +35,17 @@ class LeadController extends Controller
         $result=$leadRepository->storeLead($data);
         if($result==true)
         {
+            session(['id_usuario'=>$result["id"]]);
             \Session::flash('result','Cadastro criado com sucesso');
-            return view('index');
+            if(session('conteudo')===null)
+            {
+                return redirect('/');
+            }
+
+            return redirect(session('conteudo'));
         }
         \Session::flash('result','Houve um problema com seu cadastro.');
-        return view('index');
+        return view('formulario');
     }
 
     private function analisaTipoUsuario($email)

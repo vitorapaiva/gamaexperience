@@ -1,6 +1,18 @@
+@font-face {
+    font-family: Champagne_Limousines;
+    src: url('MYRIADPRO-REGULAR.OTF');
+}
+
+@font-face { 
+    font-family: Champagne_Limousines; 
+    font-weight: bold; 
+    src: url('MYRIADPRO-BOLD.OTF');
+}
+
 * {
     border-radius: 0 !important;
     letter-spacing: 1px;
+    font-family: Champagne_Limousines, sans-serif;
 }
 
 font-family {
@@ -8,7 +20,7 @@ font-family {
 } 
 
 .imagem-background {
-    background: url("http://i.imgur.com/caWiKkk.jpg");
+    background: url("http://i0.wp.com/www.riomusicconference.com.br/wp-content/uploads/2015/05/Sao-Paulo-bridge.jpg?resize=1920%2C1200");
 }
 
 .tamanho-input {
@@ -22,8 +34,8 @@ font-family {
 }
 
 .botao-info-cor, .botao-info-cor:hover, .botao-info-cor:visited, .botao-info-cor:active{
-    background-color: #bf5824 !important;
-    border-color: #bf5824 !important;
+    background-color: #15705b !important;
+    border-color: #15705b !important;
 }
 
 .input-erro {
@@ -44,12 +56,58 @@ font-family {
 }
 
 .img-header {
-    background: url("http://i.imgur.com/bHy9XDR.jpg");    
-    transform: translate3d(0px, 0px, 0px);
+    background: url("http://i.imgur.com/sudhGk5.png");  
+    padding-bottom: 10px;
 }
 
-.texto-header {
-    margin-top: 200px;
-    margin-bottom: 200px;
+.texto-header {    
+    padding-left: 0px;
     color: white;
+}
+
+.opacidade-navbar{
+    opacity: 0.7;    
+}
+
+.conteudo-li{
+    color: black !important;
+}
+
+.footer-blog {
+    background-color: #42705d;
+    height: 14.6%;
+    width: 100%;
+}
+
+.blog-links {
+    color: #1e4e3b;
+    font-weight: bold;
+}
+
+.texto-bottom {
+    color: white;
+}
+
+
+.logo-header {
+    width: 50%;
+}
+
+.imagem-resize {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.conteudo-header {
+    font-weight: bold;
+    color: #37c19d;
+}
+
+.imagem-conteudo{
+    width: 720px;
+}
+
+.grande-conteudo {
+    font-size: 20px;
 }

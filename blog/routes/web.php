@@ -11,5 +11,14 @@
 |
 */
 
-Route::get('/', 'LeadController@index');
-Route::post('/', 'LeadController@postLead');
+Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/formulario', 'LeadController@index')->name('formulario');
+Route::post('/formulario', 'LeadController@postLead');
+
+Route::get('/sonho/e-se-mesmo-com-a-crise-voce-pudesse-viajar', 'ContentController@mostraCriseSePudesse');
+Route::get('/democratizacao/realizar-sonho-em-tempo-de-crise', 'ContentController@mostraDemocratizacaoRealizarSonho');
+Route::get('/democratizacao/tipo-emprestimo', 'ContentController@mostraDemocratizacaoTipoEmprestimo');
+Route::get('/negocios/5-passos-para-abrir-seu-negocio', 'ContentController@mostraCincoPassos');

@@ -1,0 +1,43 @@
+@media screen and (max-width: 993px) {
+
+    .texto-header {
+        padding-left: 15px;        
+    }
+    
+    .blog-links {        
+        color: #8ae8c2;
+    }
+
+    .logo-header {
+        width: 100%;
+    }
+
+    .responsivo-centralizar {
+        text-align: center;
+    }
+
+    .well-input-size {    
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .pesquisa-display {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .imagem-resize {
+        width: 210px;
+        height: 150px;        
+    }
+
+    .texto-responsivo {
+        font-size: 11px;
+    }
+
+    .pesquisa-display {
+        width: 500px;
+    }
+}

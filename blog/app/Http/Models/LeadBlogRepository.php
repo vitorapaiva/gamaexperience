@@ -16,8 +16,8 @@ class LeadBlogRepository
     public function storeLead($data)
     {
         try {
-            $query=$this->model->insert($data);
-            return ["result"=>true];
+            $id=$this->model->insertGetId($data);
+            return ["result"=>true,"id"=>$id];
         } catch (Exception $e) {
            return ["result"=>false];
         }
