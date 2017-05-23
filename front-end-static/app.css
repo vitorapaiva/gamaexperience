@@ -1,12 +1,12 @@
 @font-face {
     font-family: Champagne_Limousines;
-    src: url('Champagne & Limousines.ttf');
+    src: url('MYRIADPRO-REGULAR.OTF');
 }
 
 @font-face { 
     font-family: Champagne_Limousines; 
     font-weight: bold; 
-    src: url('Champagne & Limousines Bold.ttf');
+    src: url('MYRIADPRO-BOLD.OTF');
 }
 
 * {
