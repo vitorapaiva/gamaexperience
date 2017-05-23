@@ -24,7 +24,7 @@
             <div class="col-md-12">
                 <div class="col-md-6 col-md-offset-3">
                     <section class="well well-lg clearfix well-input-size">
-                        <h3 class="text-center demostracao-texto">Preencha e continue lendo</h3>
+                        <h3 class="text-center demostracao-texto">Para continuar lendo, preencha abaixo:</h3>
                         <div class="form-group">
                             <label>Nome completo*</label>
                             <input type="text" name="nome" placeholder="Seu nome completo" class="form-control tamanho-input">
