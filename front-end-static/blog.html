@@ -106,20 +106,13 @@
             </div>
 
             <div class="col-md-4 form-responsivo">
-                {!! Form::open(array('url' => '/','class' => 'form-horizontal')) !!}
-                {!! Form::hidden('ip_usuario',$_SERVER['REMOTE_ADDR'])!!}
                 <section id="formFix" data-spy="affix" >
-                    @if (count($errors) > 0)
-                    
-                    @endif
-                    <div class="col-md-12">
+                     <div class="col-md-12">
                         <section class="well well-lg clearfix well-input-size">
                             <div class="col-md-12">
                                 <div class="alert alert-danger">
                                     <ul>
-                                        @foreach ($errors->all() as $error)
-                                            <li>{{ $error }}</li>
-                                        @endforeach
+                                        <li>{{ $error }}</li>
                                     </ul>
                                 </div>
                             </div>
@@ -157,8 +150,7 @@
                         </section>                        
                     </div>
                     
-                </section>
-                {!! Form::close() !!}                 
+                </section>                
             </div>
         </div>
     </section>

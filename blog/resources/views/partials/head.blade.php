@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="/css/responsivo.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:100,300,400,600,700%7COpen+Sans:400,500,600" rel="stylesheet" type="text/css">
     <script src="https://use.fontawesome.com/c66c33c7d6.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-99615858-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </head>
 
 <body>
@@ -16,16 +26,11 @@
     <div class="img-header">
         <header class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-1 texto-header ">
-                    <a href="/"><img class="logo-header" src="http://i.imgur.com/l9ryH9V.png" alt="Dr. Dinheiro Banner"></a>
-                </div>
-                <div class="col-md-8 col-md-offset-1 texto-header ">
-                    <h3>Conheça o novo especialista em finanças: DR. DINHEIRO!</h2>
-                    <h4>Aprenda como ter dinheiro, pagar suas dívidas, abrir seu negócio e realizar seu sonho!<br>
-                        Consulte o Dr.Dinheiro e cure o seu bolso!</h3>
+                <div class="col-md-8 col-md-offset-4 texto-header ">
+                    <img class="logo-header" src="http://i.imgur.com/l9ryH9V.png" alt="Dr. Dinheiro Banner">
                 </div>
             </div>
         </header>
     </div>
 
-    <hr/>
+     <hr id="fixTop"/>

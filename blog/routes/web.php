@@ -18,6 +18,9 @@ Route::get('/', function () {
 Route::get('/formulario', 'LeadController@index')->name('formulario');
 Route::post('/formulario', 'LeadController@postLead');
 
+Route::get('/pesquisa', 'SurveyController@index')->name('pesquisa');
+Route::post('/pesquisa', 'SurveyController@postSurvey');
+
 Route::get('/sonho/e-se-mesmo-com-a-crise-voce-pudesse-viajar', 'ContentController@mostraCriseSePudesse');
 Route::get('/democratizacao/realizar-sonho-em-tempo-de-crise', 'ContentController@mostraDemocratizacaoRealizarSonho');
 Route::get('/democratizacao/tipo-emprestimo', 'ContentController@mostraDemocratizacaoTipoEmprestimo');
