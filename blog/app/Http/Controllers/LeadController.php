@@ -29,6 +29,7 @@ class LeadController extends Controller
     public function postLead(CreateLead $request,LeadBlogRepository $leadRepository)
     {
         $data=$request->all();
+        $data['email']=strtolower($data['email']);
         unset($data['_token']);
         $data['tipo_usuario']=$this->analisaTipoUsuario($data['email']);
         $data['created_at']=date('Y-m-d H:i:s');

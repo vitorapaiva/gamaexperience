@@ -1,26 +1,30 @@
-'use strict';
+$(function() {
+    'use strict';
+    
+    $('#email').keyup(function(event) {
+        var email = this.value;
 
-var app = angular.module('MyInvest', []);
-
-var controllerForm = app.controller('FormController', function () {
-    var vm = this;
-
-    vm.inputEmail = '';
-    vm.emailError = false;
-
-    vm.verificarEmail = function () {
-        if (this.inputEmail !== '') {
-            vm.emailError = validarEmail();
-        }       
-    };
-
-    var validarEmail = function () {
-        var atpos = vm.inputEmail.indexOf("@");
-        var dotpos = vm.inputEmail.lastIndexOf(".");
-        if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= vm.inputEmail.length) {
-            return true;
+        if (!validarEmail(email)) {
+            $(this).addClass('input-erro');            
+        } else {
+            $(this).removeClass('input-erro');
         }
+        
+    });
 
-        return false;
-    };
+    $('#formFix').affix({
+        offset: {
+            top: 205,
+            bottom: $('#bottom-help').outerHeight(true)
+        }
+    });
 });
+
+ var validarEmail = function (email) {
+    var atpos = email.indexOf('@');
+    var dotpos = email.lastIndexOf('.');
+    if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
+        return false;
+    }
+    return true;
+};
