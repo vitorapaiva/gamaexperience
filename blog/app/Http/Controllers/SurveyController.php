@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Models\LeadBlogRepository;
-use App\Http\Requests\CreateLead;
+use App\Http\Models\SurveyRepository;
+use App\Http\Requests\SaveSurvey;
 use App\Http\Controllers\Controller;
 
-class LeadController extends Controller
+class SurveyController extends Controller
 {
     private $arrayNotCorp=['gmail.com','hotmail.com','yahoo.com','yahoo.com.br','osite.com.br','oglobo.com.br','uol.com.br'];
     /**
@@ -17,7 +17,7 @@ class LeadController extends Controller
      */
     public function index()
     {
-        return view('formulario');
+        return view('pesquisa');
     }
 
     /**
@@ -26,27 +26,22 @@ class LeadController extends Controller
      * @param  Request  $request, LeadBlogRepository $leadRepository
      * @return View
      */
-    public function postLead(CreateLead $request,LeadBlogRepository $leadRepository)
+    public function postSurvey(SaveSurvey $request,SurveyRepository $surveyRepository)
     {
         $data=$request->all();
         $data['email']=strtolower($data['email']);
         unset($data['_token']);
         $data['tipo_usuario']=$this->analisaTipoUsuario($data['email']);
         $data['created_at']=date('Y-m-d H:i:s');
-        $result=$leadRepository->storeLead($data);
+        $result=$surveyRepository->storeSurvey($data);
         if($result==true)
         {
             session(['id_usuario'=>$result["id"]]);
             \Session::flash('result','Cadastro criado com sucesso');
-            if(session('conteudo')===null)
-            {
-                return redirect('/');
-            }
-
-            return redirect(session('conteudo'));
+            return redirect('/');
         }
         \Session::flash('result','Houve um problema com seu cadastro.');
-        return view('formulario');
+        return view('pesquisa');
     }
 
     private function analisaTipoUsuario($email)
