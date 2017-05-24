@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Como esse crédito financeiro te ajudaria?*</label>
+                        <label>Como um crédito financeiro te ajudaria?*</label>
                         <select class="form-control tamanho-input" name="como_ajudaria">
                                         <option value=""></option>
                                         <option value="Pagamento">Pagamento de dívidas</option>
