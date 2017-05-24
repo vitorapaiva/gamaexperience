@@ -119,3 +119,27 @@ font-family {
   position: absolute;
   width: 91%;
 }
+
+.banner-footer {
+    width: 60%;
+}
+
+.contatos-footer {
+    opacity: 0.2;
+    border-radius: 10px !important;
+}
+
+.hr-footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1.5px solid gray;
+}
+
+.facebook-footer {
+    width: 10%;
+}
+
+.instagram-footer {
+    width: 6.3%;
+}
+
