@@ -33,6 +33,7 @@
                         <label>Situacao Profissional:</label>
                         <select class="form-control tamanho-input" name="situacao_profissional">
                                         <option value=""></option>
+                                        <option value="Desempregado">Desempregado</option>
                                         <option value="CLT">CLT</option>
                                         <option value="Autonomo">Autonomo</option>
                                         <option value="Profissional_liberal">Profissional liberal</option>
