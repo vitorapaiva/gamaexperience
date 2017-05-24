@@ -33,6 +33,8 @@ class SurveyController extends Controller
         unset($data['_token']);
         $data['tipo_usuario']=$this->analisaTipoUsuario($data['email']);
         $data['created_at']=date('Y-m-d H:i:s');
+        $data['cep']='00000000';
+        $data['telefone']='00000000';
         $result=$surveyRepository->storeSurvey($data);
         if($result==true)
         {

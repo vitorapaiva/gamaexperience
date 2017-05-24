@@ -30,13 +30,10 @@
                         <input id="data_nascimento" name="data_nascimento" type="text" placeholder="Sua data de nascimento" class="form-control tamanho-input">
                     </div>
                     <div class="form-group">
-                        <label>CEP*</label>
-                        <input id="cep" name="cep" type="text" placeholder="Seu CEP" class="form-control tamanho-input">
-                    </div>
-                    <div class="form-group">
                         <label>Situacao Profissional:</label>
                         <select class="form-control tamanho-input" name="situacao_profissional">
                                         <option value=""></option>
+                                        <option value="Desempregado">Desempregado</option>
                                         <option value="CLT">CLT</option>
                                         <option value="Autonomo">Autonomo</option>
                                         <option value="Profissional_liberal">Profissional liberal</option>
@@ -48,10 +45,6 @@
                     <div class="form-group">
                         <label>E-mail*</label>
                         <input id="email" name="email" type="text" placeholder="Seu e-mail" class="form-control tamanho-input">
-                    </div>
-                    <div class="form-group">
-                        <label>Telefone*</label>
-                        <input id="telefone" name="telefone" type="text" placeholder="Seu telefone fixo" class="form-control tamanho-input">
                     </div>
 
                     <div class="form-group">
