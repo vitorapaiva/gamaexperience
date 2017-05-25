@@ -34,6 +34,7 @@
                     <!-- FORM -->
                     {!! Form::open(array('url' => '/formulario','class' => 'form-horizontal')) !!}
                     {!! Form::hidden('ip_usuario',$_SERVER['REMOTE_ADDR'])!!} 
+                    {!! Form::hidden('motivo','Quero receber newsletter')!!} 
                     <div class="col-md-12">
                         <h3>Receba nossa newsletter</h3>
                     </div>
@@ -42,17 +43,6 @@
                     </div>
                     <div class="col-md-12">
                         <input name="email" class="form-control contatos-footer" type="text" placeholder="E-mail*" />
-                    </div>
-                    <div class="form-group">
-                            <label>Qual assunto mais lhe interessa?</label>
-                            <select class="form-control tamanho-input" name="motivo">
-                                <option value=""></option>
-                                <option value="Realizar um sonho">Realizar um sonho</option>
-                                <option value="Como pagar minhas dívidas?">Como pagar minhas dívidas?</option>
-                                <option value="Como investir dinheiro?">Como investir dinheiro?</option>
-                                <option value="Como reformar minha casa?">Como reformar minha casa?</option>
-                                <option value="Como adquirir um bem?">Como adquirir um bem?</option>
-                            </select>
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class=" btn btn-default pull-right btn-sm contatos-footer">Enviar</button>
