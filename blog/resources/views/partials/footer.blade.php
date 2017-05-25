@@ -32,20 +32,16 @@
                 </div>
                 <div class="col-md-4">
                     <!-- FORM -->
-                    {!! Form::open(array('url' => '/contato','class' => 'form-horizontal')) !!}
+                    {!! Form::open(array('url' => '/formulario','class' => 'form-horizontal')) !!}
                     {!! Form::hidden('ip_usuario',$_SERVER['REMOTE_ADDR'])!!} 
                     <div class="col-md-12">
-                        <h3>Contate-nos</h3>
+                        <h3>Receba nossa newsletter</h3>
                     </div>
                     <div class="col-md-12">
                         <input name="nome" class="form-control contatos-footer" type="text" placeholder="Nome Completo*" />
                     </div>
                     <div class="col-md-12">
                         <input name="email" class="form-control contatos-footer" type="text" placeholder="E-mail*" />
-                    </div>
-
-                    <div class="col-md-12 ">
-                        <textarea class="form-control contatos-footer" name="mensagem"></textarea>
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class=" btn btn-default pull-right btn-sm contatos-footer">Enviar</button>
