@@ -3,37 +3,28 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Models\LeadBlogRepository;
-use App\Http\Requests\CreateLead;
+use App\Http\Models\ContactRepository;
+use App\Http\Requests\CreateContact;
 use App\Http\Controllers\Controller;
 
-class LeadController extends Controller
+class ContactController extends Controller
 {
     private $arrayNotCorp=['gmail.com','hotmail.com','yahoo.com','yahoo.com.br','osite.com.br','oglobo.com.br','uol.com.br','live.com.br'];
-    /**
-     * Pagina inicial e form de criacao de lead.
-     *
-     * @return View
-     */
-    public function index()
-    {
-        return view('formulario');
-    }
-
+    
     /**
      * Armazena no banco de dados as informacoes do lead.
      *
-     * @param  Request  $request, LeadBlogRepository $leadRepository
+     * @param  Request  $request, ContactRepository $contactRepository
      * @return View
      */
-    public function postLead(CreateLead $request,LeadBlogRepository $leadRepository)
+    public function postContact(CreateContact $request,ContactRepository $contactRepository)
     {
         $data=$request->all();
         $data['email']=strtolower($data['email']);
         unset($data['_token']);
         $data['tipo_usuario']=$this->analisaTipoUsuario($data['email']);
         $data['created_at']=date('Y-m-d H:i:s');
-        $result=$leadRepository->storeLead($data);
+        $result=$contactRepository->storeContact($data);
         if($result==true)
         {
             session(['id_usuario'=>$result["id"]]);

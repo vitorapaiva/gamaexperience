@@ -26,8 +26,8 @@
     <div class="img-header">
         <header class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-4 texto-header ">
-                    <img class="logo-header" src="http://i.imgur.com/l9ryH9V.png" alt="Dr. Dinheiro Banner">
+                <div class="col-md-8 col-md-offset-2 texto-header ">
+                   <a href="/"> <img class="logo-header" src="http://i.imgur.com/l9ryH9V.png" alt="Dr. Dinheiro Banner"> </a>
                 </div>
             </div>
         </header>

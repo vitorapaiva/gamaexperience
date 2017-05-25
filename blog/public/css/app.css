@@ -1,12 +1,12 @@
 @font-face {
     font-family: Champagne_Limousines;
-    src: url('/fonts/MYRIADPRO-REGULAR.OTF');
+    src: url('MYRIADPRO-REGULAR.OTF');
 }
 
 @font-face { 
     font-family: Champagne_Limousines; 
     font-weight: bold; 
-    src: url('/fonts/MYRIADPRO-BOLD.OTF');
+    src: url('MYRIADPRO-BOLD.OTF');
 }
 
 * {
@@ -74,7 +74,7 @@ font-family {
 }
 
 .blog-links {
-    color: #37c19d;
+    color: #1e4e3b;
     font-weight: bold;
 }
 
@@ -107,7 +107,7 @@ font-family {
 }
 
 .affix {
-    top: 90px;
+    top: 7%;
     width: 27%;
 }
 
@@ -119,3 +119,28 @@ font-family {
   position: absolute;
   width: 91%;
 }
+
+.banner-footer {
+    width: 60%;
+}
+
+.contatos-footer {
+    opacity: 0.2;
+    border-radius: 10px !important;
+    margin-bottom: 5px;
+}
+
+.hr-footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1.5px solid gray;
+}
+
+.facebook-footer {
+    width: 10%;
+}
+
+.instagram-footer {
+    width: 6.3%;
+}
+

@@ -14,10 +14,10 @@ $(function() {
 
     $('#formFix').affix({
         offset: {
-            top: 205,
+            top: 150,
             bottom: $('#bottom-help').outerHeight(true)
         }
-    });
+    });    
 });
 
  var validarEmail = function (email) {

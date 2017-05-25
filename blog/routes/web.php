@@ -25,3 +25,5 @@ Route::get('/sonho/e-se-mesmo-com-a-crise-voce-pudesse-viajar', 'ContentControll
 Route::get('/democratizacao/realizar-sonho-em-tempo-de-crise', 'ContentController@mostraDemocratizacaoRealizarSonho');
 Route::get('/democratizacao/tipo-emprestimo', 'ContentController@mostraDemocratizacaoTipoEmprestimo');
 Route::get('/negocios/5-passos-para-abrir-seu-negocio', 'ContentController@mostraCincoPassos');
+
+Route::post('/contato', 'ContactController@postContact');

@@ -1,15 +1,16 @@
+
 @include('partials.head')
 
     <section class="container" style="font-size: 15px;">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+        <div class="row responsivo-centralizar">
+            <div class="col-md-8">
                 <a href="/">
                     <u>
                         << Voltar</u>
                 </a>
             </div>
 
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-8">
                 <div class="col-md-12">
                     <h2 class="conteudo-header">5 passos para abrir seu negócio</h2>
                 </div>
@@ -88,9 +89,11 @@
                         fácil!
                     </p>
                 </div>
-
-
+                <div class="col-md-12" id="bottom-help2">
+                    <hr/>
+                </div>
             </div>
+            @include('partials.sideform')
         </div>
     </section>
 

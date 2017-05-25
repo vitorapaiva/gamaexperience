@@ -1,15 +1,15 @@
 @include('partials.head')
 
     <section class="container" style="font-size: 15px;">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+        <div class="row responsivo-centralizar">
+            <div class="col-md-8">
                 <a href="/">
                     <u>
                         << Voltar</u>
                 </a>
             </div>
 
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-8">
                 <div class="col-md-12">
                     <h2 class="conteudo-header">Realizar sonhos em um ano de crise? Sim, é possível...</h2>
                 </div>
@@ -47,7 +47,11 @@
                         baixos no Brasil! Quer saber mais sobre o assunto? Assine nossa news e acompanhe nosso blog para
                         ficar por dentro de tudo relacionado ao mundo das finanças. O Dr. Dinheiro explica!</p>
                 </div>
+                 <div class="col-md-12" id="bottom-help2">
+                    <hr/>
+                </div>
             </div>
+            @include('partials.sideform')
         </div>
     </section>
 

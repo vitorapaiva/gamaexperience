@@ -9,7 +9,7 @@ use App\Http\Controllers\Controller;
 
 class SurveyController extends Controller
 {
-    private $arrayNotCorp=['gmail.com','hotmail.com','yahoo.com','yahoo.com.br','osite.com.br','oglobo.com.br','uol.com.br'];
+    private $arrayNotCorp=['gmail.com','hotmail.com','yahoo.com','yahoo.com.br','osite.com.br','oglobo.com.br','uol.com.br','live.com.br'];
     /**
      * Pagina inicial e form de criacao de lead.
      *
