@@ -24,11 +24,6 @@
                         <label>Nome completo*</label>
                         <input name="nome" type="text" placeholder="Seu nome completo" class="form-control tamanho-input">
                     </div>
-
-                    <div class="form-group">
-                        <label>Data de Nascimento</label>
-                        <input id="data_nascimento" name="data_nascimento" type="text" placeholder="Sua data de nascimento" class="form-control tamanho-input">
-                    </div>
                     <div class="form-group">
                         <label>Situacao Profissional:</label>
                         <select class="form-control tamanho-input" name="situacao_profissional">
