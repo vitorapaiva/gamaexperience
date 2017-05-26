@@ -35,6 +35,7 @@ class SurveyController extends Controller
         $data['created_at']=date('Y-m-d H:i:s');
         $data['cep']='00000000';
         $data['telefone']='00000000';
+        $data['data_nascimento']=date('Y-m-d H:i:s');
         $result=$surveyRepository->storeSurvey($data);
         if($result==true)
         {

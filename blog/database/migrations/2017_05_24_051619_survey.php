@@ -17,10 +17,10 @@ class Survey extends Migration
             $table->increments('survey_id')->index();
             $table->string('nome');
             $table->string('email');
-            $table->string('data_nascimento');
-            $table->string('cep');
+            $table->string('data_nascimento')->nullable();
+            $table->string('cep')->nullable();
             $table->string('situacao_profissional');
-            $table->string('telefone');
+            $table->string('telefone')->nullable();
             $table->string('como_ajudaria');
             $table->string('utiliza_credito');
             $table->string('sonho_proprio');

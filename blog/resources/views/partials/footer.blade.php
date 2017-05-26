@@ -4,7 +4,7 @@
             <div class="col-md-8">
                 <div class="col-md-10 col-md-offset 1" style="padding-top: 25px;">
                     <div class="col-md-10 col-md-offset-1 banner-footer ">
-                        <img class="logo-header" src="http://i.imgur.com/l9ryH9V.png" alt="Dr. Dinheiro Banner">
+                        <a name="sobre"> <img class="logo-header" src="http://i.imgur.com/l9ryH9V.png" alt="Dr. Dinheiro Banner"></a>
                     </div>
                     <div class="col-md-12">
                         <div class="col-md-10 col-md-offset-1">

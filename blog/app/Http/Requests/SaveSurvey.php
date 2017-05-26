@@ -26,7 +26,6 @@ class SaveSurvey extends FormRequest
         return [
             'email' => 'required|email|unique:survey',
             'nome' => 'required',
-            'data_nascimento' => 'required',
             'como_ajudaria' => 'required',
             'utiliza_credito' => 'required',
             'sonho_proprio' => 'required',

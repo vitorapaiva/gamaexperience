@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Data de Nascimento*</label>
+                        <label>Data de Nascimento</label>
                         <input id="data_nascimento" name="data_nascimento" type="text" placeholder="Sua data de nascimento" class="form-control tamanho-input">
                     </div>
                     <div class="form-group">
