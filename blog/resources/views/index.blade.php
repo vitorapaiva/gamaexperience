@@ -8,10 +8,33 @@
         <div class="col-md-8" id="conteudo">
             <div class="col-md-12">
                 <div class="col-md-12">
+                    <span class="label label-success">Sonhos</span>
+                </div>
+                <div class="col-md-12">
+                    <br><small>26/05/2017</small> <h3><a href="{{action('ContentController@mostraSonhoCasamentoCrise')}}" class="blog-links">Aquele momento chegou e agora? Saiba como realizar um casamento sem crise</a></h3>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6 div-resize">
+                        <img src="/img/bridal-636018_1280.jpg" alt="Imagem verde" class="imagem-resize">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Subir no altar muitas vezes é um sonho para algumas pessoas, mas quando a conta chega, isso desestimula bastante. Casar é ótimo, quando não se tem que pagar a conta! E o desesperado "sim", fica cada vez mais distante para a tristeza do casal. 
+                            Foi pensando nisso que eu, Dr. Dinheiro, resolvi dar uma de cupido e ver o que pode ser feito para realizar um casamento sem crise.
+                        </p>
+                        <p>
+                            <a href="{{action('ContentController@mostraSonhoCasamentoCrise')}}" class="link-blog">Saiba mais >></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
                     <span class="label label-success">Democratização</span>
                 </div>
                 <div class="col-md-12">
-                    <h3><a href="{{action('ContentController@mostraDemocratizacaoRealizarSonho')}}" class="blog-links">Realizar sonhos em um ano de crise?</a></h3>
+                    <br><small>24/05/2017</small> <h3><a href="{{action('ContentController@mostraDemocratizacaoRealizarSonho')}}" class="blog-links">Realizar sonhos em um ano de crise?</a></h3>
                 </div>
                 <div class="col-md-12">
                     <div class="col-md-6 div-resize">
@@ -38,7 +61,7 @@
                     <span class="label label-success">Negócios</span>
                 </div>
                 <div class="col-md-12">
-                    <h3><a href="{{action('ContentController@mostraCincoPassos')}}" class="blog-links">Quer abrir seu próprio négocio? A gente pode ajudar.</a></h3>
+                     <br><small>23/05/2017</small> <h3><a href="{{action('ContentController@mostraCincoPassos')}}" class="blog-links">Quer abrir seu próprio négocio? A gente pode ajudar.</a></h3>
                 </div>
                 <div class="col-md-12">
                     <div class="col-md-6 div-resize">
@@ -65,7 +88,7 @@
                     <span class="label label-success">Viagem</span>
                 </div>
                 <div class="col-md-12">
-                    <h3><a href="{{action('ContentController@mostraCriseSePudesse')}}" class="blog-links">E se mesmo com a crise você pudesse viajar?</a></h3>
+                     <br><small>23/05/2017</small> <h3><a href="{{action('ContentController@mostraCriseSePudesse')}}" class="blog-links">E se mesmo com a crise você pudesse viajar?</a></h3>
                 </div>
                 <div class="col-md-12">
 
@@ -93,7 +116,7 @@
                     <span class="label label-success">Democratização</span>
                 </div>
                 <div class="col-md-12">
-                    <h3><a href="{{action('ContentController@mostraDemocratizacaoTipoEmprestimo')}}" class="blog-links">Precisa pagar uma dívida urgente? Entenda qual é o melhor empréstimo a fazer!</a></h3>
+                     <br><small>22/05/2017</small> <h3><a href="{{action('ContentController@mostraDemocratizacaoTipoEmprestimo')}}" class="blog-links">Precisa pagar uma dívida urgente? Entenda qual é o melhor empréstimo a fazer!</a></h3>
                 </div>
                 <div class="col-md-12">
                     <div class="col-md-6 div-resize">

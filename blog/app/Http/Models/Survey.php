@@ -28,6 +28,8 @@ class Survey extends Model
                             'utiliza_credito',
                             'sonho_proprio',
                             'bem_proprio',
+                            'precisou_credito',
+                            'qual_solucao',
                             'ip_usuario',
                             'tipo_usuario',
                             'created_at',

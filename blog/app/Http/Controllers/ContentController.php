@@ -37,5 +37,11 @@ class ContentController extends Controller
         return view('5passos');
     }
 
+    public function mostraSonhoCasamentoCrise()
+    {
+        session(['conteudo'=>'/sonho/como-realizar-casamento-sem-crise']);
+        return view('casamentosemcrise');
+    }
+
 
 }

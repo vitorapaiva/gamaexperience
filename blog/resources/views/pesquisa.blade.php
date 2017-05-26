@@ -87,6 +87,18 @@
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label>Precisa ou já precisou de dinheiro ou algum tipo de crédito pessoal / empréstimo?</label>
+                        <select class="form-control tamanho-input" name="precisou_credito">
+                                        <option value="Sim">Sim</option>
+                                        <option value="Não">Não</option>
+                                </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Qual seria a solução ideal no seu ponto de vista?</label>
+                        <textarea class="form-control tamanho-input" name="qual_solucao"></textarea>
+                    </div>
                     <small><small>Campos marcados com * são obrigatórios</small></small>
 
                     <div>
