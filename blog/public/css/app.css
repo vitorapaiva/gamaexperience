@@ -1,12 +1,12 @@
 @font-face {
     font-family: Champagne_Limousines;
-    src: url('MYRIADPRO-REGULAR.OTF');
+    src: url('/fonts/MYRIADPRO-REGULAR.OTF');
 }
 
 @font-face { 
     font-family: Champagne_Limousines; 
     font-weight: bold; 
-    src: url('MYRIADPRO-BOLD.OTF');
+    src: url('/fonts/MYRIADPRO-BOLD.OTF');
 }
 
 * {
@@ -51,13 +51,15 @@ font-family {
 }
 
 .img-header {
-    background: url("http://i.imgur.com/sudhGk5.png");  
+    background: url("/img/BANNER-CERTO-MAIN.png");  
     padding-bottom: 10px;
 }
 
 .texto-header {    
     padding-left: 0px;
     color: white;
+    margin-bottom: 3em;
+    margin-top: 3em;
 }
 
 .opacidade-navbar{
@@ -88,9 +90,8 @@ font-family {
 }
 
 .imagem-resize {
-    width: 300px;
+    width: 100%;
     height: 150px;
-    margin-top: 10px;
 }
 
 .conteudo-header {
@@ -107,17 +108,17 @@ font-family {
 }
 
 .affix {
-    top: 7%;
-    width: 27%;
+    top: 2.5%;
+    width: 350px;
 }
 
 .affix-top {
-    width: 98%
+    width: 350px;
 }
 
 .affix-bottom {
   position: absolute;
-  width: 91%;
+  width: 350px;
 }
 
 .banner-footer {
@@ -127,7 +128,6 @@ font-family {
 .contatos-footer {
     opacity: 0.2;
     border-radius: 10px !important;
-    margin-bottom: 5px;
 }
 
 .hr-footer {
@@ -144,3 +144,78 @@ font-family {
     width: 6.3%;
 }
 
+.navbar {
+    margin-bottom: 0px;
+    background-color: #315044;
+    border-color: #315044;    
+}
+
+.logo-brand {
+    width: 80%;
+}
+
+.navbar-brand {
+    padding-top: 7px;    
+}
+
+.li-hover-nav:hover {
+    background-color: #317b5f;
+    border-color: #317b5f;
+}
+
+.header-back {
+    background-color: #317b5f;
+    padding-top: 2px;
+}
+
+.small-border-header {
+    border: 5px solid #315044;
+}
+
+.text-center{
+    margin-top: 0px;
+}
+
+.label-success {
+    background-color: #2e5f58;
+}
+
+.label {
+    border-radius: .5em !important;
+}
+
+.div-resize {
+    padding-left:  0px;
+}
+
+.hr-verde {
+    border-color: #315044;
+}
+
+.link-blog {
+    color: #293e26;
+}
+
+.input-header {
+    border-radius: 10px !important;
+    border: 2px solid #293e26;
+}
+
+.hr-header {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+.botao-header {
+    border-radius: 10px !important;  
+    border: 2px solid #293e26;  
+}
+
+.primeira-letra {
+    font-size: 30px;
+}
+
+.mais-espaco{
+    margin-top: 10px;
+}

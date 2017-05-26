@@ -7,17 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/responsivo.css">
-     <script src="https://use.fontawesome.com/c66c33c7d6.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-99615858-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
 </head>
 
 <body>
@@ -40,15 +29,29 @@
     <div class="img-header">
         <header class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-4 col-md-offset-2">
                     <div class="texto-header">
                         <h2>
-                            <span class="header-back">CHEGOU O SEU NOVO ESPECIALISTA </span><br/> 
-                            <span class="header-back">EM FINANÇAS E ECONOMIA. </span><br/>
-                            <span class="header-back">O DR. DINHEIRO VAI CURAR </span><br/>
-                            <span class="header-back">O SEU BOLSO!</span>
+                            <span class="header-back">CADASTRE-SE E FIQUE </span><br/>
+                            <span class="header-back">POR DENTRO DE TODAS</span><br/>
+                            <span class="header-back">AS NOSSAS DICAS </span><br/>
                         </h2>
                     </div>
+                </div>
+                <div class="col-md-4">
+                    {!! Form::open(array('url' => '/formulario','class' => 'form-horizontal')) !!}
+                    {!! Form::hidden('ip_usuario',$_SERVER['REMOTE_ADDR'])!!}
+                    {!! Form::hidden('motivo','Formulario topo')!!}
+                    <div class="texto-header">
+                        <input class="form-control input-header" type="text" name="nome" placeholder="Nome Completo" />
+                        <hr class="hr-header">
+                        <input class="form-control input-header" type="text" name="email" placeholder="Email" />
+
+                        <button type="submit" class=" btn btn-default pull-right btn-sm botao-header">Enviar</button>
+
+                    </div>
+
+                    {!! Form::close() !!} 
                 </div>
             </div>
         </header>
