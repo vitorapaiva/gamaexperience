@@ -3,9 +3,9 @@
     src: url('MYRIADPRO-REGULAR.OTF');
 }
 
-@font-face {
-    font-family: Champagne_Limousines;
-    font-weight: bold;
+@font-face { 
+    font-family: Champagne_Limousines; 
+    font-weight: bold; 
     src: url('MYRIADPRO-BOLD.OTF');
 }
 
@@ -16,8 +16,8 @@
 }
 
 font-family {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+} 
 
 .imagem-background {
     background: url("http://i0.wp.com/www.riomusicconference.com.br/wp-content/uploads/2015/05/Sao-Paulo-bridge.jpg?resize=1920%2C1200");
@@ -33,10 +33,7 @@ font-family {
     margin-bottom: 20px;
 }
 
-.botao-info-cor,
-.botao-info-cor:hover,
-.botao-info-cor:visited,
-.botao-info-cor:active {
+.botao-info-cor, .botao-info-cor:hover, .botao-info-cor:visited, .botao-info-cor:active{
     background-color: #15705b !important;
     border-color: #15705b !important;
 }
@@ -54,27 +51,27 @@ font-family {
 }
 
 .img-header {
-    background: url("BANNER-CERTO-MAIN.png");
+    background: url("BANNER-CERTO-MAIN.png");  
     padding-bottom: 10px;
 }
 
-.texto-header {
+.texto-header {    
     padding-left: 0px;
     color: white;
     margin-bottom: 3em;
     margin-top: 3em;
 }
 
-.opacidade-navbar {
-    opacity: 0.7;
+.opacidade-navbar{
+    opacity: 0.7;    
 }
 
-.conteudo-li {
+.conteudo-li{
     color: black !important;
 }
 
 .footer-blog {
-    background-color: #42705d;
+    background-color: #42705d;    
     width: 100%;
 }
 
@@ -86,6 +83,7 @@ font-family {
 .texto-bottom {
     color: white;
 }
+
 
 .logo-header {
     width: 50%;
@@ -101,7 +99,7 @@ font-family {
     color: #37c19d;
 }
 
-.imagem-conteudo {
+.imagem-conteudo{
     width: 720px;
 }
 
@@ -119,8 +117,8 @@ font-family {
 }
 
 .affix-bottom {
-    position: absolute;
-    width: 350px;
+  position: absolute;
+  width: 350px;
 }
 
 .banner-footer {
@@ -149,35 +147,15 @@ font-family {
 .navbar {
     margin-bottom: 0px;
     background-color: #315044;
-    border-color: #315044;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: white;
+    border-color: #315044;    
 }
 
 .logo-brand {
     width: 80%;
 }
 
-.cad-button {
-    color: #317B5F;
-    background-color: #E5FFF2;
-    font-family: 'Lato', sans-serif;
-}
-
-button .navbar-toggle .collapsed .mobile-menu {
-    padding-top: 0px;
-}
-
-.botao-menu-cel {
-    float: right;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
 .navbar-brand {
-    padding-top: 7px;
+    padding-top: 7px;    
 }
 
 .li-hover-nav:hover {
@@ -194,7 +172,7 @@ button .navbar-toggle .collapsed .mobile-menu {
     border: 5px solid #315044;
 }
 
-.text-center {
+.text-center{
     margin-top: 0px;
 }
 
@@ -207,7 +185,7 @@ button .navbar-toggle .collapsed .mobile-menu {
 }
 
 .div-resize {
-    padding-left: 0px;
+    padding-left:  0px;
 }
 
 .hr-verde {
@@ -230,14 +208,14 @@ button .navbar-toggle .collapsed .mobile-menu {
 }
 
 .botao-header {
-    border-radius: 10px !important;
-    border: 2px solid #293e26;
+    border-radius: 10px !important;  
+    border: 2px solid #293e26;  
 }
 
 .primeira-letra {
     font-size: 30px;
 }
 
-.mais-espaco {
+.mais-espaco{
     margin-top: 10px;
 }
